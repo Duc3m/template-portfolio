@@ -213,12 +213,12 @@ import { siteConfig } from "../config";
       )
     }
     {
-      siteConfig.social?.twitter && (
+      siteConfig.social?.facebook && (
         <a
-          href={siteConfig.social.twitter}
+          href={siteConfig.social.facebook}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Twitter"
+          aria-label="Facebook"
           class="transition-colors duration-300 hover:text-[var(--accent-color)]"
         >
           <svg
@@ -233,11 +233,8 @@ import { siteConfig } from "../config";
             stroke-linejoin="round"
             class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
           >
-            <>
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-            </>
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
           </svg>
         </a>
       )

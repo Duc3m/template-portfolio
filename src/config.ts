@@ -1,92 +1,81 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Tran Duc Em",
+  title: "Software Engineer",
+  description: "Portfolio website of Tran Duc Em",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ducemtran44@gmail.com",
+    linkedin: "https://www.linkedin.com/in/duc3m/",
+    facebook: "https://www.facebook.com/Duc3m",
+    github: "https://github.com/Duc3m",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Passionate software engineer with years of experience building scalable web applications. Skilled in Java, C#, Node.js, and cloud technologies. Dedicated to writing clean, efficient code and continuously learning new technologies.",
+  skills: ["C++", "C#", "Java", "Javascript", "React", "Node.js"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Java Library Management",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Library management system built with Java Swing and MySQL, allowing users to manage book inventory, track loans, and generate reports",
+      link: "https://github.com/Duc3m/JavaLibraryManagement",
+      skills: ["Java", "JavaSwing", "MySQL"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: ".NET Store Management",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Store management system built with .NET and MySQL, allowing users to manage products, customers, and sales transactions",
+      link: "https://github.com/dungdia/DotNet_StoreManagement",
+      skills: ["C#", "ASP.NET", "MySQL"],
     },
     {
-      name: "ExtensionKit",
+      name: "Stim - Game Web Store",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Front end of a game web store built with HTML and CSS, allowing users to browse and purchase games online",
+      link: "https://github.com/Duc3m/Stim",
+      skills: ["HTML", "CSS", "JavaScript"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  // experience: [
+  //   {
+  //     company: "Tech Company",
+  //     title: "Senior Software Engineer",
+  //     dateRange: "Jan 2022 - Present",
+  //     bullets: [
+  //       "Led development of microservices architecture serving 1M+ users",
+  //       "Reduced API response times by 40% through optimization",
+  //       "Mentored team of 5 junior developers",
+  //     ],
+  //   },
+  //   {
+  //     company: "Startup Inc",
+  //     title: "Full Stack Developer",
+  //     dateRange: "Jun 2020 - Dec 2021",
+  //     bullets: [
+  //       "Built and launched MVP product from scratch using React and Node.js",
+  //       "Implemented CI/CD pipeline reducing deployment time by 60%",
+  //       "Collaborated with product team to define technical requirements",
+  //     ],
+  //   },
+  //   {
+  //     company: "Digital Agency",
+  //     title: "Frontend Developer",
+  //     dateRange: "Aug 2018 - May 2020",
+  //     bullets: [
+  //       "Developed responsive web applications for 20+ clients",
+  //       "Improved site performance scores by 35% on average",
+  //       "Introduced modern JavaScript frameworks to legacy codebases",
+  //     ],
+  //   },
+  // ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Saigon University",
+      degree: "Bachelor of Engineering in Information Technology",
+      dateRange: "2022 - 2027 (Expected)",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Current GPA: 2.8/4.0",
+        "Currently working on Specialized Project: 'Research and Implementation of Vector Database in Intelligent Information Retrieval'"
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
